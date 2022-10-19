@@ -16,7 +16,7 @@ export const getStaticProps = async () => {
 export default function Home({ allPosts }) {
   console.log("all posts", allPosts);
   return (
-    <Layout Home>
+    <Layout Home='true'>
       <Head>
         <title>{siteTitle}</title>
       </Head>
